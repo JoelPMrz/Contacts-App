@@ -57,7 +57,7 @@ fun ContactAddScreen( navController: NavController, viewModel: ContactViewModel)
             BottomOptions(
                 navController = navController,
                 contact = Contact(0, name, number, mail = mail),
-                negative = "Caneclar",
+                negative = "Cancelar",
                 positive = "Confirmar",
 
                 onConfirm = {
